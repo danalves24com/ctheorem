@@ -1,0 +1,23 @@
+Call:
+lm(formula = y ~ log(x))
+
+Residuals:
+      Min        1Q    Median        3Q       Max
+-0.009643 -0.007569 -0.001565  0.005455  0.020023
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.41447    0.01224   33.85  < 2e-16 ***
+log(x)      -0.26472    0.01116  -23.73  1.8e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.009094 on 17 degrees of freedom
+Multiple R-squared:  0.9707,	Adjusted R-squared:  0.969
+F-statistic: 563.1 on 1 and 17 DF,  p-value: 1.799e-14
+
+
+
+This function models by how much the quotion of X changes so that it achieves a constant
+
+-0.2647*ln(x) + 0.414
